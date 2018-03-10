@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+}
+h1 {
+    color:OrangeRed;
+    text-align:center;
+    font-family:Impact;
+    font-size:300%;
+    /*border: 1px double powderblue;*/
+    border-style: double;
+    border-width: 5px; 
+    border-Color: SlateGray; 
+    }
+
+
+
+p {
+    color: Blue;
+    border-style: outset;
+    border-width: 1px;
+    border-Color: DeepSkyBlue;
+}
+
+
+
+
+
+
+
+<div id="banner">
+    <div class="inline-block">
+        <img src ="House1.jpg">
+    </div>
+
+    <div class="inline-block">
+        <img src ="House2.jpg">
+    </div>
+</div>
+
+
+
+
+
+<div id="banner" style="float: hidden;justify-content:space-around;">
+    <div class="" style="max-width: 50%;max-height: 50%;display: inline-block;">
+        <img src="House1.jpg">
+    </div>
+
+    <div class="" style="max-width: 50%;max-height: 50%;display: inline-block;">
+        <img src="House2.jpg">
+    </div>
+</div>
